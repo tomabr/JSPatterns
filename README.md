@@ -1,10 +1,10 @@
-#Behavioral patterns
+#Behavioral Patterns
 Behavioral patterns are concerned with the assigment of responsibility between objects and how they communicate.
 Bevarioral patterns deal with resposibilites of objects. They help objects cooperate and asign clear hierarchy of them.
 Behavioral object can encapsulate request.
 
 
-## Decorator pattern
+## Decorator Pattern
 It is a behavioral pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
 
 The one of object is the focal point which have the list of observers (subscribers) and a method to notify.
@@ -23,7 +23,7 @@ Observes don't know about other observers.
 |                |:arrow_lower_right:       |  concrete observer C     |
 
 
-## Mediator pattern
+## Mediator Pattern
 It is a behvioral paterern which defines an object that encapsulates how a set of objects interact.
 
 One object manges all communication. It is a mediator.
@@ -35,3 +35,9 @@ We have many to many relationship by meditor. Objects no longer communicate dire
 |       |          	     |          |:arrow_upper_right:       |  concrete obj A     |
 |obj    |:arrow_right:    |meditor   |:arrow_right:      |  concrete obj B     |
 |       |                 |          |:arrow_lower_right:       |  concrete obj C     |
+
+##Command Pattern
+It is a behavioral pattern which encapsulate the calling of method as an object
+
+It ensure fully decouples the executioon from the implementation, allows for less fragile implementations and support undo operations.
+It is especially good for supporting aduiting and logging of operations.
