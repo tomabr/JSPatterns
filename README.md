@@ -33,5 +33,5 @@ We have many to many relationship by meditor. Objects no longer communicate dire
 |       |     |   |   |   |
 |-------|--------|------------|------------|--------------------------|
 |       |          	     |          |:arrow_upper_right:       |  concrete obj A     |
-|meditor|:arrow_right:    |meditor   |:arrow_right:      |  concrete obj B     |
+|obj    |:arrow_right:    |meditor   |:arrow_right:      |  concrete obj B     |
 |       |                 |          |:arrow_lower_right:       |  concrete obj C     |
