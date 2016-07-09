@@ -20,7 +20,7 @@ Observes don't know about other observers.
 |----------------|-------------------------|--------------------------|
 |          	     |:arrow_upper_right:      |  concrete observer A     |
 |the focal point |:arrow_right:            | concrete observer B      |
-|                |:arrow_lower_right       |  concrete observer C     |
+|                |:arrow_lower_right:       |  concrete observer C     |
 
 
 ## Mediator pattern
@@ -30,7 +30,7 @@ One object manges all communication. It is a mediator.
 
 We have many to many relationship by meditor. Objects no longer communicate directly with each other, but instead communicate through the mediator. This reduces the dependencies between communicating objects
 
-
+|         |     |   |   |   |
        |          	     |          |:allow_upper_right       |  concrete obj A     |
 meditor|:arrow_right:    |meditor   |:arrow_right:      |  concrete obj B     |
        |                 |          |:arrow_lower_right       |  concrete obj C     |
