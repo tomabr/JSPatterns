@@ -1,13 +1,13 @@
 ##Structural Patterns
-Structrual patterns are concerned with how object are made up and simplify relationship between objects
+Structrual patterns are concerned with how object are made up and simplify relationship between objects (compositions of objects).
 
-##Decorator pattern
+###Decorator pattern
 It is a structural pattern which is used to add new functioanlity to an existing object, without being obtrusive (it protects existing object, but allows extended functionality).
 
-##Fascade Patterns
+###Fascade Patterns
 It is a structural pattern which simplified interface. When we have many methods, which are need to do certain task, we can wrap them in fascade.
 
-##Flyweight Pattern
+###Flyweight Pattern
 It is a structural which conserves memory by sharing poritions of an object betwene objects. Results in a smaller memory footprint.
 
 
@@ -18,7 +18,7 @@ It is a behavioral patterns are concerned with the assigment of responsibility b
 Bevarioral patterns deal with resposibilites of objects. They help objects cooperate and asign clear hierarchy of them.
 Behavioral object can encapsulate request.
 
-### Decorator Pattern
+### Observer Pattern
 It is a behavioral pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
 
 The one of object is the focal point which have the list of observers (subscribers) and a method to notify.
